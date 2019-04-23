@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Bateria Selada UniPower UP12280 12 - 28",
+        "ddp": 12,
+        "charge_capacity": 28,
+        "price": 412
+    },
+    {
+        "name": "Alcalina 23A (12V 52mAh)",
+        "ddp": 12,
+        "charge_capacity": 52,
+        "price": 25
+    },
+    {
+        "name": "Bateria Selada EP12-28 (12V-28Ah)",
+        "ddp": 12,
+        "charge_capacity": 28,
+        "price": 389.99
+    },
+    {
+        "name": "Alcalina 6LF22",
+        "ddp": 9,
+        "charge_capacity": 0.32,
+        "price": 20
+    },
+    {
+        "name": "Lithium CR2032",
+        "ddp": 3,
+        "charge_capacity": 0.22,
+        "price": 3.5
+    },
+    {
+        "name": "Ni-MH 2/3 AAA 1,2V - 500mA",
+        "ddp": 1.2,
+        "charge_capacity": 0.5,
+        "price": 10
+    }
+]
