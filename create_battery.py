@@ -19,8 +19,8 @@ def create(metals):
         for metal in metals:
             print(metals[metal]["name"])
     metal1 = metals[metal1]
-    metal1_mass = int(input("Qual é a massa do primeiro metal (em grama)? \n"))
-    metal1_solution = int(
+    metal1_mass = float(input("Qual é a massa do primeiro metal (em grama)? \n"))
+    metal1_solution = float(
         input("Qual é a concentração da solução para primeiro metal (em mol/L)? \n"))
 
     List_battery.append(metal1)
@@ -35,13 +35,13 @@ def create(metals):
         for metal in metals:
             print(metals[metal]["name"])
     metal2 = metals[metal2]
-    metal2_mass = int(input("Qual é a massa do segundo metal (em grama)? "))
-    metal2_solution = int(
+    metal2_mass = float(input("Qual é a massa do segundo metal (em grama)? "))
+    metal2_solution = float(
         input("Qual é a concentração da solução para segundo metal (em mol/L)? "))
     List_battery.append(metal2)
     List_battery.append(metal2_mass)
     List_battery.append(metal2_solution)
-    temp = int(input("Em qual temperatura a bateria vai operar (em Celsius)? "))
+    temp = float(input("Em qual temperatura a bateria vai operar (em Celsius)? "))
     List_battery.append(temp)
 
     bateria = battery(List_battery)
