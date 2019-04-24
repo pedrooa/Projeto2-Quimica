@@ -28,7 +28,7 @@ while(True):
         print("\n##################################")
         print("RESULTADOS DA SUA BATERIA: ")
         print("####################################\n")
-        print("DDP: %.2f Volts" % battery.ddp)
+        print("DDP: %.3f Volts" % battery.ddp)
         print("\nCapacidade de carga: %.2f mAh " % battery.charge_capacity)
         print("\nDensidade de carga: %.2f mAh/g " % battery.charge_density)
         print("\nDensidade de energia: %.2f Wh/g" % battery.energy_density)
